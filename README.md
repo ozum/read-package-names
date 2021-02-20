@@ -59,4 +59,4 @@ await readPackageNames("node_modules", { scope: "babel" }); // ["@babel/runtime"
 
 the list of package names including scoped packages.
 
-Defined in: [read-package-names.ts:62](https://github.com/ozum/read-package-names/blob/b93ff59/src/read-package-names.ts#L62)
+Defined in: [read-package-names.ts:62](https://github.com/ozum/read-package-names/blob/bd13ba0/src/read-package-names.ts#L62)
