@@ -54,7 +54,7 @@
     "yo:update": "yo tsmod:uninstall --no-install --force && yo 'tsmod'"
   },
   "dependencies": {
-    "ignor": "^1.0.0",
+    "ignor": "^1.1.0",
     "junk": "^3.1.0"
   },
   "devDependencies": {

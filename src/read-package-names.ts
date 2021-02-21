@@ -1,7 +1,7 @@
 import junk from "junk";
 import { promises as fs } from "fs";
 import { basename, join } from "path";
-import * as ignore from "ignor";
+import { ignoreCode } from "ignor";
 
 /**
  * Converts it's input to an array.
@@ -52,7 +52,7 @@ async function readScopedPackageNames(cwd: string, scopes: string[], { silent = 
   return (
     await Promise.all(
       scopes.map(async (scope) =>
-        (await fs.readdir(join(cwd, scope)).catch(ignore.code(errorCodes, [] as string[]))).map((name) => join(scope, name))
+        (await fs.readdir(join(cwd, scope)).catch(ignoreCode(errorCodes, [] as string[]))).map((name) => join(scope, name))
       )
     )
   )

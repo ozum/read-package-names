@@ -66,4 +66,4 @@ await readPackageNames("node_modules", { prefix: "pg" }); // ["pg-structure", "p
 
 the list of package names including scoped packages.
 
-Defined in: [read-package-names.ts:95](https://github.com/ozum/read-package-names/blob/f0cdaf0/src/read-package-names.ts#L95)
+Defined in: [read-package-names.ts:95](https://github.com/ozum/read-package-names/blob/f33d5dd/src/read-package-names.ts#L95)
