@@ -7,6 +7,8 @@
 ```ts
 await readPackageNames("node_modules"); // ["pg-structure", "@babel/runtime", ...]
 await readPackageNames("node_modules", { scope: "babel" }); // ["@babel/runtime", "@babel/template", ...]
+await readPackageNames("node_modules", { prefix: "pg" }); // ["pg-structure", "pg-generator", "@user/pg-promise", ...]
+await readPackageNames("node_modules", { scope: "user", prefix: "pg" }); // ["@user/pg-promise", ...]
 ```
 
 # Details

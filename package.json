@@ -8,13 +8,17 @@
     "url": "https://www.ozum.net/"
   },
   "keywords": [
+    "package",
+    "node_module",
+    "scope",
+    "prefix",
+    "plugin",
+    "module",
     "read",
     "dir",
-    "node_module",
-    "package",
-    "names",
-    "scope",
-    "scoped"
+    "name",
+    "scoped",
+    "prefixed"
   ],
   "engines": {
     "node": ">= 12.0.0"
@@ -50,6 +54,7 @@
     "yo:update": "yo tsmod:uninstall --no-install --force && yo 'tsmod'"
   },
   "dependencies": {
+    "ignor": "^1.0.0",
     "junk": "^3.1.0"
   },
   "devDependencies": {
@@ -77,10 +82,11 @@
     "readmeasy": "^0.2.7",
     "ts-jest": "^26.5.1",
     "ts-node-dev": "^1.1.1",
-    "typedoc": "^0.20.24",
+    "typedoc": "^0.20.27",
     "typedoc-neo-theme": "^1.1.0",
     "typedoc-plugin-example-tag": "^1.0.2",
-    "typedoc-plugin-markdown": "^3.4.5",
+    "typedoc-plugin-markdown": "^3.5.0",
+    "typedoc-plugin-param-names": "^2.0.0",
     "typescript": "^4.1.5",
     "walkdir": "^0.4.1"
   }
